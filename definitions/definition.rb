@@ -27,6 +27,8 @@ Veewee::Session.declare({
   :postinstall_files => [
     "base.sh",
     "chef.sh",
+		"clouderarepo.sh",
+		"devenv.sh",
     "puppet.sh",
     "vagrant.sh",
     "virtualbox.sh",
